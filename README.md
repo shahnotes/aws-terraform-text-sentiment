@@ -1,1 +1,1 @@
-# aws-terraform-text-sentiment
+# AWS Terraform Text Sentiment
