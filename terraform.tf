@@ -5,6 +5,18 @@ terraform {
       version = "5.81.0"
     }
   }
+
+  backend "local" {
+    path = "terraform.tfstate"
+  }
+
+  # backend "s3" {
+  #   bucket         = "tf_state_bucket"
+  #   key            = "dev/terraform.tfstate"
+  #   region         = var.region
+  #   dynamodb_table = "tf_state_locks"
+  #   encrypt        = true
+  # }
 }
 
 provider "aws" {

@@ -29,5 +29,5 @@ variable "project_name" {
 
 variable "project_owner" {
   description = "Owner of the project"
-  type = string
+  type        = string
 }
