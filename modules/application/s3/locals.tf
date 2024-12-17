@@ -1,5 +1,4 @@
 locals {
-
   environment    = lower(var.environment)
   project_prefix = lower(var.project_prefix)
 
